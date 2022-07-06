@@ -1,0 +1,164 @@
+.Maincrypto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  background-color: #E9F4D0 !important;
+  z-index: -2;
+}
+
+.crytotext {
+  color: #14192d;
+  font-weight: 300;
+  font-size: 6rem;
+  line-height: 2;
+}
+
+.crytotext1 {
+  color: #14192d;
+  font-weight: bold;
+  font-size: 6rem;
+  margin-top: -.8rem;
+}
+
+.dollarimg {
+  width: 50rem;
+  z-index: 2;
+}
+
+.mainimg {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.crytotext2 {
+  color: #333539;
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+.crytoinput {
+  width: 28rem;
+  padding: 1.4rem;
+  border: 1px solid #2e6029;
+  border-radius: 3rem;
+  color: #73845d;
+  font-size: 1.5rem !important;
+  background-color: #e9f4d0;
+  margin-left: -2rem;
+
+}
+
+.getbtn {
+  width: 14rem;
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%);
+  border-radius: 3rem;
+  padding: 1.4rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.framepic {
+  position: absolute;
+  z-index: 1;
+  width: 55rem;
+}
+
+@media(max-width: 1024px) {
+  .framepic {
+    position: absolute;
+    margin-top: 5rem;
+    z-index: 1;
+    width: 45vw;
+  }
+}
+
+@media(max-width: 425px) {
+  .framepic {
+    position: absolute;
+    z-index: 1;
+    width: 48rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .dollarimg {
+    width: 40rem;
+    z-index: 2;
+  }
+
+  .crytotext {
+    color: #14192d;
+    font-weight: 300;
+    font-size: 5rem;
+    line-height: 2;
+    text-align: center;
+  }
+
+  .crytotext1 {
+    color: #14192d;
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .crytotext2 {
+    color: #333539;
+    font-size: 2.7rem;
+    line-height: 2;
+    text-align: center;
+  }
+
+  .crytoinput {
+    width: 22rem;
+    padding: 1.4rem;
+    border: 1px solid #2e6029;
+    border-radius: 2rem;
+    color: #73845d;
+    font-size: 1rem;
+    background-color: #e9f4d0;
+  }
+
+  .getbtn {
+    width: 12rem;
+    background: linear-gradient(48.98deg,
+        rgba(167, 214, 63, 0.9) -34.08%,
+        #39b54a 44.93%,
+        #9fd340 126.52%);
+    border-radius: 2rem;
+    padding: 1.4rem;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .framepic {
+    position: absolute;
+    z-index: 1;
+    height: 65vh;
+  }
+}
+
+@media(max-width: 320px) {
+  .dollarimg {
+    width: 40rem;
+    z-index: 2;
+  }
+
+  .crytotext {
+    color: #14192D;
+    font-weight: 300;
+  }
+
+  .framepic {
+    position: absolute;
+    margin-top: 10rem;
+    z-index: 1;
+    width: 43rem;
+  }
+}

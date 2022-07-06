@@ -1,0 +1,43 @@
+.Mainreward {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #FFFFFF;
+}
+
+.maindiv11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+}
+
+.rewarddiv {
+    display: flex;
+    width: 18rem;
+    padding: 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+    border-radius: 1rem;
+}
+
+.ttimg {
+    width: 4rem;
+}
+
+.rewardtext {
+    color: #000000;
+    font-weight: bold;
+
+}
+
+@media(max-width: 425px) {
+    .rewardtext {
+        color: #000000;
+        font-weight: bold;
+        text-align: center;
+
+    }
+}

@@ -1,0 +1,45 @@
+.divtbl {
+  width: 30rem;
+  height: 5rem;
+  border: solid 1px;
+  border-color: #76b91b;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+}
+.maindivtbl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.divtbll {
+  display: flex;
+  align-items: center;
+}
+.btntbl {
+  position: absolute;
+  margin-left: 0.2rem;
+  border-color: #9fd340 !important ;
+  background: linear-gradient(
+    48.98deg,
+    rgba(167, 214, 63, 0.9) -34.08%,
+    #39b54a 44.93%,
+    #9fd340 126.52%
+  ) !important ;
+  border-radius: 3rem !important;
+  height: 4.6rem !important;
+  width: 15rem;
+}
+.decl {
+  color: #8f8f8f;
+  margin-left: 2rem;
+  opacity: 0.7;
+}
+.tbletble {
+  margin-top: 5rem;
+}
+.ant-tag-has-color{
+    color: #76B91B!important;
+    background-color: rgba(118, 185, 27, 0.08)!important;
+}

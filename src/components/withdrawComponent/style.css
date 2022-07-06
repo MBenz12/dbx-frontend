@@ -1,0 +1,12 @@
+.tablescroll{
+    overflow: auto !important;
+  } 
+  .ant-table-cell{
+    background-color: transparent  !important;
+  }
+    @media(max-width: 425px){
+      .tablediv1122{
+        width: 100%;
+        overflow: auto;
+      }
+    }

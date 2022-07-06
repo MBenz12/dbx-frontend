@@ -1,0 +1,130 @@
+.maindivofopenorders124 {
+    width: 100%;
+
+}
+
+
+.dropdiv {
+    border: solid 1px grey;
+    background-color: #F2F2F2;
+    padding: 1.2rem;
+    width: 30rem
+}
+
+.greycolormilja2233 {
+    color: #8f8f8f;
+    font-size: 1.2rem;
+}
+
+.searchbuttoncolor {
+    background-color: #4b9a2a;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+}
+
+.marginoftoptable12 {
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.tablestyling12 {
+    border: 1px solid #d8d8d8 !important;
+    border-radius: 1rem;
+}
+
+.eyelogo {
+    margin-left: .5rem;
+    width: 2rem;
+    margin-top: .5rem
+}
+
+.myassetsearch66 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    width: 90rem;
+}
+.deptext{
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #8F8F8F;
+}
+.depptext{
+    color: #14192D;
+}
+.myassetext33 { 
+    font-size: 1.4rem;
+    color: #4b9a2a;
+    text-decoration: underline;
+}
+.depodivvvv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:25rem;
+}
+
+@media(max-width: 1024px) {
+    .myassetsearch66 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 74rem;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .maindivofopenorders124 {
+        width: 100%;
+        margin-top: 10rem;
+
+    }
+
+    .myassetsearch66 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 88rem;
+    }
+
+
+
+}
+
+@media(max-width: 425px) {
+
+    .myassetsearch66 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 54rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .myassetsearch66 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 46rem;
+    }
+}
+
+@media(max-width: 320px) {
+    .myassetsearch66 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 40rem;
+    }
+}

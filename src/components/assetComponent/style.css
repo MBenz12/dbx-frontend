@@ -1,0 +1,255 @@
+.maindivofopenorders11 {
+  width: 100%;
+}
+
+.ant-picker {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  padding: 4px 11px 4px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background: #f3f3f3 !important;
+  border: 1px solid #d8d8d8 !important;
+  border-radius: 3px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.greycolormilja2233 {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+.displayflexofopenorders11 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.backgroundkiyakian {
+  background: #f3f3f3 !important;
+  border: 1px solid #d8d8d8 !important;
+}
+
+.searchbuttoncolor {
+  background-color: #4b9a2a;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+}
+
+.slashdiv {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+
+.allbuttondiv {
+  margin-top: 2.8rem;
+}
+
+.marginoftoptable11 {
+  margin-top: 2rem;
+  width: 90%;
+}
+
+.tablestyling11 {
+  border: 1px solid #d8d8d8 !important;
+  border-radius: 1rem;
+}
+
+.eyelogo {
+  margin-left: .5rem;
+  width: 2rem;
+  margin-top: .5rem
+}
+
+.maineysdivvv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.maineysdiv1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.assetbtndiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 35rem;
+}
+
+.assetstext {
+  color: #4b9a2a;
+  text-decoration: underline;
+}
+
+.assetbtn {
+  width: 7rem;
+  padding: .5rem;
+  background-color: #4b9a2a;
+  color: white;
+  border-radius: .5rem;
+  border: solid 1px #4b9a2a;
+}
+
+.assetbtn1 {
+  width: 7rem;
+  padding: .5rem;
+  color: #4b9a2a;
+  border-radius: .5rem;
+  border: solid 1px #4b9a2a;
+}
+
+@media(max-width: 1024px) {
+  .maineysdivvv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 68rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .maineysdiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .assetbtndiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40rem;
+  }
+}
+
+@media(max-width: 768px) {
+  .maineysdivvv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 62rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .maineysdiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .assetbtndiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 45rem;
+  }
+}
+
+@media(max-width: 425px) {
+  .maineysdivvv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .maineysdiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 52rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .assetbtndiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40rem;
+  }
+}
+
+@media(max-width: 375px) {
+  .maineysdivvv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .maineysdiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .assetbtndiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    width: 40rem;
+  }
+}
+
+@media(max-width: 320px) {
+  .maineysdivvv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 38rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .maineysdiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .assetbtndiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35rem;
+  }
+}

@@ -1,0 +1,9 @@
+.Maintable1111 {
+    background-color: #FAFAFA !important;
+    margin-top: -8rem;
+    padding: 20px 0px;
+}
+
+.ant-table-pagination.ant-pagination {
+    display: none !important;
+}

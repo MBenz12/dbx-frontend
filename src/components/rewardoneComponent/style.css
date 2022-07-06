@@ -1,0 +1,105 @@
+.MainRewardone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #FFFFFF;
+
+}
+
+.colmaindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainusdtdiv {
+    width: 80rem; 
+    padding: 1.5rem;
+    background: #FFFFFF;
+    box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+    border-radius: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ttpicc {
+    width: 3.5rem;
+}
+
+.us {
+    margin-left: .6rem;
+    margin-top: .8rem;
+}
+
+.percentdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perecnttext {
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.perecnttext1 {
+    text-align: center;
+}
+
+.colmaindiv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caldiv {
+    width: 35rem;
+    padding: 2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+    border-radius: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.Unfreezediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.Unfreezebtn {
+    width: 12rem;
+    background: #4B9A2A;
+    border: solid 1px #4B9A2A;
+    padding: .8rem;
+    color: white;
+    text-align: center;
+    border-radius: .5rem;
+}
+.inputbtr{
+    padding: .5rem !important;
+    font-size: 1rem;
+    background-color: #F3F4F8 !important;
+}
+ @media(max-width: 425px){
+    .mainusdtdiv {
+        width: 50rem;
+        padding: 1.5rem;
+        background: #FFFFFF;
+        box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+        border-radius: 16px;
+    }
+ }
+ @media(max-width: 375px){
+    .mainusdtdiv {
+        width: 40rem;
+        padding: 1.5rem;
+        background: #FFFFFF;
+        box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+        border-radius: 16px;
+    }
+ }

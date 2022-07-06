@@ -1,0 +1,28 @@
+.rewardmainthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #FFFFFF;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #4B9A2A !important;
+    text-shadow: 0 0 0.25px currentcolor;
+}
+
+.tabb {
+    width: 80rem !important;
+}
+
+@media(max-width: 425px) {
+    .tabb {
+        width: 50rem !important;
+    }
+}
+
+@media(max-width: 320px) {
+    .tabb {
+        width: 40rem !important;
+    }
+}

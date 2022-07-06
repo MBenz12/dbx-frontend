@@ -1,0 +1,105 @@
+.Maintable11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAFAFA !important;
+    margin-top: -8rem;
+    padding: 20px 0px;
+}
+
+.ant-table-pagination.ant-pagination {
+    display: none !important;
+}
+
+.tablediv1 { 
+
+    width: 90rem !important;
+}
+
+.stakebtn1 {
+    width: 9rem;
+    padding: .5rem !important;
+    border: solid 1px #4B9A2A !important;
+    color: #4B9A2A !important;
+    border-radius: .5rem;
+    background-color: #FFFFFF;
+}
+
+.coinimg {
+    width: 2.5rem;
+}
+
+.cointext {
+    margin-left: .5rem;
+}
+
+.textcolor {
+    color: #0CB668 !important;
+}
+
+.subtable1 {
+    background-color: #FFFFFF;
+    padding: 20px 0px;
+}
+
+.searchbardiv {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textfarm {
+    font-size: 1.5rem;
+    color: #14192D;
+}
+
+.searcbar {
+    width: 30rem !important;
+    background: #F3F4F8 !important;
+    border: solid 1px #8F8F8F;
+    color: #8F8F8F;
+    border-radius: .5rem;
+    padding-left: 2rem !important;
+
+
+}
+
+.newpic {
+    position: absolute;
+    width: 4rem;
+    margin-top: -1.3rem;
+    margin-left: 3rem;
+}
+
+.searchlogo {
+    position: absolute;
+    margin-left: .4rem;
+    margin-top: .8rem;
+    width: 1.5rem;
+    z-index: 1;
+}
+
+/* .ant-table-thead>tr>th {
+    display: none !important;
+} */
+
+@media(max-width: 768px) {
+
+    .searchlogo {
+        position: absolute;
+        margin-left: .4rem;
+        margin-top: 1.5rem;
+        width: 1.5rem;
+        z-index: 1;
+    }
+}
+
+@media(max-width: 425px) {
+    .tablediv1 {
+        width: 50rem !important;
+
+    }
+
+}

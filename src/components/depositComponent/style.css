@@ -1,0 +1,7 @@
+.tablescroll{
+    overflow: auto !important;
+  } 
+  .ant-table-cell{
+    background-color: transparent  !important;
+  }
+    

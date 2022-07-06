@@ -1,0 +1,117 @@
+.Mainrewardtwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #FFFFFF;
+}
+
+.protectdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.protectimg {
+    width: 29rem
+}
+
+.protectimg1 {
+    position: absolute;
+    width: 18rem
+}
+
+.inputinvest {
+    width: 35rem !important;
+}
+
+.investbtn {
+    width: 10rem;
+    font-size: 1.1rem;
+    padding: .7rem;
+    color: white;
+    background: #4B9A2A;
+    border-radius: 0rem .8rem .8rem 0rem;
+    border: solid 1px #4B9A2A;
+}
+
+.protectdiv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locktext {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #8F8F8F;
+}
+
+.boxdiv11 {
+    width: 50rem;
+    height: 25rem;
+    overflow: auto;
+    padding: 2rem;
+    background: #FFFFFF !important;
+    box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+
+
+}
+
+.box1div11 {
+    width: 50rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF !important;
+    box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+    border-radius: .8rem;
+
+}
+
+.butbtn {
+    width: 12rem;
+    padding: .8rem;
+    color: white;
+    border: solid 1px #4B9A2A;
+    background: linear-gradient(48.98deg, rgba(167, 214, 63, 0.9) -34.08%, #39B54A 44.93%, #9FD340 126.52%);
+    border-radius: .5rem;
+}
+
+@media(max-width: 768px) {
+    .investbtn {
+        width: 10rem;
+        font-size: 1.2rem;
+        padding: 1.2rem;
+        color: white;
+        background: #4B9A2A;
+        border-radius: 0rem .8rem .8rem 0rem;
+        border: solid 1px #4B9A2A;
+    }
+}
+
+@media(max-width: 320px) {
+    .inputinvest {
+        width: 25rem !important;
+    }
+
+    .boxdiv11 {
+        width: 40rem;
+        padding: 2rem;
+        background: #FFFFFF;
+        box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+    }
+
+    .box1div11 {
+        width: 40rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+
+    }
+
+} 

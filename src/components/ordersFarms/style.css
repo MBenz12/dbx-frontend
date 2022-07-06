@@ -1,0 +1,172 @@
+.maindivofopenorders {
+  width: 100%;
+}
+
+.ant-picker {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  padding: 4px 11px 4px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background: #f3f3f3 !important;
+  border: 1px solid #d8d8d8 !important;
+  border-radius: 3px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.greycolormilja2233 {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+.displayflexofopenorders11 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.backgroundkiyakian {
+  background: #f3f3f3 !important;
+  border: 1px solid #d8d8d8 !important;
+}
+
+.searchbuttoncolor {
+  background-color: #4b9a2a;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+}
+
+.slashdiv {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+
+.allbuttondiv {
+  margin-top: 2.8rem;
+}
+
+.marginoftoptable {
+  margin-top: 2rem;
+  width: 90%;
+}
+
+.tablestyling {
+  border: 1px solid #d8d8d8 !important;
+  border-radius: 1rem;
+}
+
+.notedowndiv {
+  border: 1px solid #d8d8d8 !important;
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 9rem;
+  background-color: #fff;
+  height: 4rem;
+  padding: 1rem;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.displayflexofhistory {
+  display: flex;
+  align-items: center;
+}
+
+.questionmarkofantdicon {
+  font-size: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+.linktoviwallassets22 {
+  color: #4b9a2a !important;
+  text-decoration: underline !important;
+}
+
+.displayfehiihyi {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+@media (max-width: 2560px) {
+  .openordersmobile3355 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tablestyling {
+    border: 1px solid #d8d8d8 !important;
+    border-radius: 1rem;
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .openordersmobile3355 {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 90rem;
+  }
+
+  .openorders1122 {
+    display: none !important;
+  }
+
+  .displayflexofhistory {
+    display: none !important;
+  }
+
+  .displayflexofhistory22 {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .displayflexofmobileviwwww {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+
+  .searchbuttonasasa {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .searchbuttoncolor {
+    background-color: #4b9a2a;
+    color: #fff;
+    margin-top: 1rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+  }
+
+  .marginoftoptable {
+    margin-top: 2rem;
+    width: 100% !important;
+  }
+
+  .linktoviwallassets {
+    display: none !important;
+  }
+
+  .linktoviwallassets22 {
+    color: #4b9a2a;
+    text-decoration: underline;
+    margin-top: 1rem;
+  }
+}

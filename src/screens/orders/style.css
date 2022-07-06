@@ -1,0 +1,104 @@
+.maincomponentoforders {
+  padding: 1rem;
+  padding-bottom: 9rem;
+}
+
+#components-layout-demo-top-side .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.siderclasses {
+  padding: 1rem !important;
+  background-color: #fff !important;
+  border: solid #cfd7de 1px !important;
+  border-radius: 1rem;
+}
+
+.iamfixingheight {
+  height: 70vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.siderheightwidth {
+  height: 45rem;
+  background-color: #fff;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border-right: none !important;
+}
+
+.ant-menu-submenu-selected {
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%) !important;
+  border-radius: 1rem;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #fff !important;
+  color: #39b54a !important;
+}
+
+.ant-menu-submenu-selected {
+  color: #fff !important;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-right: none !important;
+  transform: scaleY(0.0001);
+  opacity: 0;
+  transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+    opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  content: "";
+  color: #4b9a2a !important;
+}
+
+@media (max-width: 2560px) {
+  .siderdivvvv {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .siderclasses {
+    display: none !important;
+  }
+
+  .siderheightwidth33 {
+    height: 42rem;
+    background-color: #fff;
+  }
+
+  .siderdivvvv {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

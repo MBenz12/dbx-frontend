@@ -1,0 +1,217 @@
+.maindivofopenorders12 {
+    width: 100%;
+}
+
+.tablediv {
+    width: 90rem !important;
+}
+
+.dropdiv {
+    border: solid 1px grey;
+    background-color: #F2F2F2;
+    padding: 1.2rem;
+    width: 30rem
+}
+
+.greycolormilja2233 {
+    color: #8f8f8f;
+    font-size: 1.2rem;
+}
+
+
+.searchbuttoncolor {
+    background-color: #4b9a2a;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+}
+
+.marginoftoptable12 {
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.tablestyling12 {
+    border: 1px solid #d8d8d8 !important;
+    border-radius: 1rem;
+}
+
+.eyelogo {
+    margin-left: .5rem;
+    width: 2rem;
+    margin-top: .5rem
+}
+
+.maineysdiv12 {
+    display: flex;
+    justify-content: space-between;
+    width: 88rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.myassetsearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    width: 90rem;
+}
+
+.searcbar122 {
+    width: 30rem !important;
+    background: #f3f4f8 !important;
+    border: solid 1px #8f8f8f;
+    color: #8f8f8f;
+    border-radius: 0.5rem;
+    padding-left: 2rem !important;
+}
+
+.searchlogo122 {
+    position: absolute;
+    margin-left: 0.4rem;
+    margin-top: 0.8rem;
+    width: 1.5rem;
+    z-index: 1;
+}
+
+.myassetext33 {
+    font-size: 1.4rem;
+    color: #4b9a2a;
+    text-decoration: underline;
+}
+
+@media(max-width: 1024px) {
+    .maineysdiv {
+        display: flex;
+        justify-content: space-between;
+        width: 68rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .myassetsearch {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 72rem;
+    }
+
+    .maineysdiv1 {
+        display: flex;
+        justify-content: space-between;
+        width: 70rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+@media(max-width: 768px) {
+    .maineysdiv {
+        display: flex;
+        justify-content: space-between;
+        width: 62rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .maineysdiv1 {
+        display: flex;
+        justify-content: space-between;
+        width: 70rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .myassetsearch {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 80rem;
+    }
+}
+
+@media(max-width: 425px) {
+    .maineysdiv {
+        display: flex;
+        justify-content: space-between;
+        width: 50rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .maineysdiv1 {
+        display: flex;
+        justify-content: space-between;
+        width: 52rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .myassetsearch {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 56rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .maineysdiv {
+        display: flex;
+        justify-content: space-between;
+        width: 45rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .maineysdiv1 {
+        display: flex;
+        justify-content: space-between;
+        width: 48rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .myassetsearch {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 48rem;
+    }
+}
+
+
+@media(max-width: 320px) {
+    .maineysdiv {
+        display: flex;
+        justify-content: space-between;
+        width: 38rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .maineysdiv1 {
+        display: flex;
+        justify-content: space-between;
+        width: 40rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .myassetsearch {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 42rem;
+    }
+}

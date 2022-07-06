@@ -1,0 +1,31 @@
+.tradercompofirstDivoftradesexchange {
+  background-color: #fff;
+  height: 102rem !important;
+  border-radius: 10px !important;
+  padding: 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.displayflexoftradercomponent {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.linediveoo1212 {
+  width: 100%;
+  background-color: #cfd7de;
+  height: 0.1rem;
+  margin-top: 1rem;
+}
+@media (max-width: 500px) {
+  .menupic {
+    width: 3rem;
+  }
+  .decimal {
+    width: 15rem;
+  }
+}

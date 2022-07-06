@@ -1,0 +1,10 @@
+.firstDivoftradesexchange {
+  background-color: #fff;
+  height: 50rem !important;
+  border-radius: 10px !important;
+  padding: 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  margin-top: 2rem;
+}

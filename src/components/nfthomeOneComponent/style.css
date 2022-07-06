@@ -1,0 +1,98 @@
+.MainNftHomeOne111222 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    background-color: #F7F7F7 !important;
+
+}
+
+.conducttext {
+    font-size: 5rem;
+    color: #14192D;
+    text-align: center;
+}
+
+.compdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compimg {
+    width: 50rem;
+}
+
+.bittext {
+    font-size: 1.5rem;
+    color: #333539;
+}
+
+.bitdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem
+}
+
+.hrbit {
+    width: 28rem;
+}
+
+.applediv {
+    width: 24rem;
+    background: linear-gradient(48.98deg, rgba(167, 214, 63, 0.9) -34.08%, #39B54A 44.93%, #9FD340 126.52%);
+    border-radius: 4rem;
+    margin-bottom: 3rem;
+}
+
+.downdiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.downtext {
+    font-size: 1.3rem;
+    color: #FFFFFF;
+
+}
+
+.downtext1 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.Androiddiv {
+    width: 24rem;
+    background-color: #F7F7F7;
+    border-radius: 4rem;
+    border: solid 1px #39B54A;
+}
+
+.Androidtext {
+    font-size: 1.3rem;
+    color: #14192D;
+}
+
+.Androidtext1 {
+    font-size: 1.5rem;
+    color: #14192D;
+    font-weight: bold;
+}
+
+.bitcoll {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+}
+
+@media(max-width: 320px) {
+    .compimg {
+        width: 40rem;
+    }
+}

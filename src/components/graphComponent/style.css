@@ -1,0 +1,262 @@
+.headofgraphcomponent {
+  background-color: #fff;
+  width: 100%;
+  height: 7rem;
+  border-radius: 1rem;
+}
+
+.spacofgraphheadcompoennt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.displayflexofgraph {
+  display: flex;
+  width: 45rem;
+  justify-content: space-between;
+  margin-top: 1.8rem;
+  align-items: center;
+}
+
+.greycolormilja {
+  color: #8f8f8f;
+  font-size: xx-small;
+}
+.redcolormilja {
+  color: red;
+}
+
+.chartsplace {
+  height: 41rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 1rem;
+
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.displayflexofimages {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.imgofgraph {
+  height: 25rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.lineheightofdiv {
+  margin-bottom: 4rem !important;
+  font-weight: bold;
+}
+
+.displaflexsss {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -2rem;
+  margin-top: -1rem;
+}
+
+.aligintoright {
+  float: right;
+}
+
+.kbutton {
+  background-color: rgba(12, 182, 104, 0.2);
+  color: #0cb668;
+  border: solid 1px #0cb668;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+.dpethbutton {
+  background-color: rgba(247, 193, 67, 0.2);
+  color: #f3bb38;
+  border: solid 1px #f3bb38;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1rem;
+
+  font-size: 1.6rem;
+}
+
+.bottomRowofgraphs {
+  height: 50rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.fisrtdivofbottomgraphs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomcolorborder {
+  border-bottom: solid 4px #0cb668 !important;
+}
+
+.marketquestiommark {
+  font-size: 1.4rem;
+  margin-top: -0.3rem;
+}
+
+.linediveoo {
+  width: 100%;
+  background-color: #cfd7de;
+  height: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+.firstcoloumofrow {
+  margin-top: 5rem;
+}
+
+.colorofreen {
+  color: #0cb668;
+}
+
+.displayflexspacebetwwen {
+  display: flex;
+  justify-content: space-between;
+}
+.marginofinputsss {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.colortrykrtyhuwy {
+  color: #0cb668 !important;
+}
+
+.margintTopiffs {
+  margin-top: 4rem;
+}
+
+.bottombutton {
+  background: linear-gradient(
+    48.98deg,
+    rgba(167, 214, 63, 0.9) -34.08%,
+    #39b54a 44.93%,
+    #9fd340 126.52%
+  );
+  border-radius: 1rem;
+  width: 100%;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-top: 5rem;
+  padding: 1rem;
+  border: none;
+}
+@media (max-width: 2560px) {
+  .mobviewofheadergraph {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .bottomRowofgraphs {
+    height: 100rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  .mobileviewofrow {
+    margin-bottom: 1rem;
+  }
+  .displayflexofgraph {
+    display: flex;
+    width: 75rem;
+    justify-content: space-between;
+    margin-top: 1.8rem;
+    align-items: center;
+  }
+}
+@media (max-width: 425px) {
+  .imgofgraph {
+    height: 20rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  .displaflexsss {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -1rem;
+    margin-top: -3rem;
+  }
+  .displayflexofimages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+  }
+  .headofgraphcomponent {
+    display: none;
+  }
+  .mobviewofheadergraph {
+    display: flex !important;
+    background-color: #fff;
+    width: 100%;
+
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  .carbonimgmobview {
+    height: 3rem;
+  }
+  .bottomgapmobview {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .imgofgraph {
+    height: 18rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-top: 4rem;
+  }
+  .greycolormilja {
+    color: #8f8f8f;
+    font-size: xx-small;
+  }
+}
+
+@media (max-width: 320px) {
+  .imgofgraph {
+    height: 16rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-top: 6rem;
+  }
+  .displaynone {
+    display: none !important;
+  }
+  .greycolormilja {
+    color: #8f8f8f;
+    font-size: xx-small;
+    font-weight: 0.1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .marketquestiommark {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+  .bottomcolorborder {
+    font-size: 1.4rem;
+  }
+}

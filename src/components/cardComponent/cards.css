@@ -1,0 +1,121 @@
+.hot {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 2rem;
+}
+.arrdiv {
+  border-radius: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrr {
+  display: flex;
+  justify-content: space-evenly;
+  width: 15rem;
+}
+.arrdiv1 {
+  border-radius: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background: #4b9a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arr {
+  font-size: 2.5rem;
+}
+.arr1 {
+  font-size: 2.5rem;
+  color: white !important;
+}
+.images {
+  width: 30rem !important;
+  height: 50rem !important;
+}
+.rows {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  font-weight: bold;
+}
+.bld {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons1 {
+  background: #CFD7DE !important;
+  border-color: #CFD7DE !important;
+  border-radius: 2rem !important;
+  text-align: center;
+  width: 25rem !important;
+  margin-top: 2rem;
+  color: black !important;
+  font-size: larger !important;
+}
+.buttons {
+  background: linear-gradient(
+    48.98deg,
+    rgba(167, 214, 63, 0.9) -34.08%,
+    #39b54a 44.93%,
+    #9fd340 126.52%
+  );
+  border-color: #39b54a !important
+  ;
+  border-radius: 2rem !important;
+  text-align: center;
+  width: 25rem !important;
+  margin-top: 2rem;
+  color: white !important;
+  font-size: larger !important;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.imges{
+    position: absolute;
+    z-index: 1;
+    padding-top: 2rem;
+    padding-left: 23rem;
+}
+@media only screen and (max-width: 768px) {
+  .images {
+    width: 40rem !important;
+    height: 60rem !important;
+  }
+  .buttons {
+    background: linear-gradient(
+      48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%
+    );
+    border-color: #39b54a !important
+        ;
+    border-radius: 2rem !important;
+    text-align: center;
+    width: 31.5rem !important;
+    margin-top: 2rem;
+    color: white !important;
+    font-size: larger !important;
+  }
+  .imges{
+    position: absolute;
+    z-index: 1;
+    padding-top: 2rem;
+    padding-left: 31rem;
+}
+}

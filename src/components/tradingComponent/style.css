@@ -1,0 +1,136 @@
+.Maintrading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  flex-direction: column;
+  background-color: rgba(75,154,42,0.06) !important;
+}
+
+.tradetext {
+  font-size: 4rem;
+  color: #0b1025;
+  text-align: center;
+}
+
+.tradetext1 {
+  font-size: 2rem;
+  color: #8f8f8f;
+  text-align: center;
+  font-weight: 230 !important;
+  margin-top: 1.5rem;
+  line-height: 1.5;
+}
+
+.exchangediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.05) !important;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 8rem;
+}
+
+.imglogo {
+  width: 4rem;
+}
+
+.leveragediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 22rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.leveragediv:hover {
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%);
+}
+
+.mainexchangediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 22rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.mainexchangediv:hover {
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%);
+}
+
+.exchangetext {
+  color: #14192d;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
+.aboutdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 22rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.aboutdiv:hover {
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%);
+}
+
+.cryptodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 22rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.cryptodiv:hover {
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%);
+}
+
+.voting-boxdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 22rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.voting-boxdiv:hover {
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%);
+}
+
+.collll {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}

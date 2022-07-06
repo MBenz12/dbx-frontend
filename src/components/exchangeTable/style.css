@@ -1,0 +1,46 @@
+.displayflexoftable {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.mainexchangetable {
+  background-color: white;
+  /* padding: 2rem; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.displyflexofheadingtable {
+  display: flex;
+  margin-left: 2rem;
+}
+.marginleftofh2 {
+  margin-left: 2rem;
+  color: grey;
+}
+.horizontallineoftable {
+  width: 100%;
+  height: 1px;
+  background-color: #cfd7de;
+}
+
+@media (max-width: 768px) {
+  .mainexchangetable {
+    background-color: white;
+    /* padding: 2rem; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 83%;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  /* abbabb */
+  .tablescrollofgraph {
+    width: 100%;
+    overflow: auto;
+  }
+}

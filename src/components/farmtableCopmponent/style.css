@@ -1,0 +1,104 @@
+/* .Maintable11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+  background-color: #e5e5e5 !important;
+} */
+
+.tablescroll {
+  overflow: auto !important;
+}
+
+.ant-table-cell {
+  background-color: transparent !important;
+}
+
+.ant-table-pagination.ant-pagination {
+  display: none !important;
+}
+
+.moredivbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.morebtn {
+  margin-top: 2.5rem;
+  margin-bottom: 1.3rem;
+  width: 12rem;
+  padding: 1rem;
+  border: solid #39b54a 1px;
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.subtable {
+  background-color: #ffffff;
+  padding: 20px 0px;
+  border-radius: 1rem;
+}
+
+.searchbardiv11 {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textfarm {
+  font-size: 2.2rem !important;
+  color: #14192d;
+}
+
+.searcbar {
+  width: 30rem !important;
+  background: #f3f4f8 !important;
+  border: solid 1px #8f8f8f;
+  color: #8f8f8f;
+  border-radius: 0.5rem;
+  padding-left: 2rem !important;
+}
+
+.newpic11 {
+  position: absolute;
+  width: 3.5rem;
+  margin-top: -3.1rem;
+  margin-left: 6.5rem;
+}
+
+.searchlogo {
+  position: absolute;
+  margin-left: 0.4rem;
+  margin-top: 0.8rem;
+  width: 1.5rem;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .searchlogo {
+    position: absolute;
+    margin-left: 0.4rem;
+    margin-top: 1.5rem;
+    width: 1.5rem;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 375px) {
+  .searchbardiv11 {
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  .textfarm22 {
+    margin-top: 1rem;
+  }
+}

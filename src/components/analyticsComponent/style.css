@@ -1,0 +1,77 @@
+.MainAnalytics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+.rowana {
+  background: #FFFFFF;
+  padding: 1rem;
+  box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+  border-radius: 20px;
+}
+
+.mainanadiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem
+}
+.anahr{
+  width: 1px;
+  background-color: rgb(221, 214, 214);
+  height: 6rem; 
+  margin-top: 4rem;
+}
+
+.txtana {
+  color: #333539;
+
+}
+
+.marg {
+  margin-top: 2rem;
+}
+
+.centerdivana {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -5rem;
+}
+
+.centerdivana1 {
+  width:  40rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+  .mrgint {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .marg1{
+    width: 12rem
+  }
+  
+  .marg {
+    margin-top: 2rem;
+  }
+  .centerdivana {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10rem;
+  }
+ 
+}

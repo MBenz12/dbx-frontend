@@ -1,0 +1,71 @@
+.tablescroll {
+  overflow: auto !important;
+}
+
+.ant-table-cell {
+  background-color: transparent !important;
+}
+
+.risingdatatablediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+  border-radius: 20px;
+}
+
+.mainbtndivvv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #76B91B;
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+  padding: .2rem;
+  width: 28rem;
+  box-sizing: border-box;
+
+}
+
+.risingbtn {
+  border-radius: 2rem;
+  border: solid 1px #76B91B;
+  color: white;
+  padding: .9rem;
+  width: 12rem;
+  font-size: 1rem;
+  background: linear-gradient(48.98deg, rgba(167, 214, 63, 0.9) -34.08%, #39B54A 44.93%, #9FD340 126.52%);
+}
+
+.risingbtn1 {
+  border-radius: 2rem;
+  border: solid 1px #FFFFFF;
+  color: white;
+  padding: .9rem;
+  width: 12rem;
+  font-size: 1rem;
+  background: #FFFFFF;
+}
+
+.risingdivvv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.downdivv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+.downvecc {
+  margin-left: 1.5rem;
+  margin-top: -1.2rem;
+}

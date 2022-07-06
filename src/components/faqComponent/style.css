@@ -1,0 +1,67 @@
+.mainfaq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+  background-color: #e5e5e5 !important;
+}
+
+.faqtext {
+  font-size: 4.5rem;
+  color: #14192d;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+  border: 1px solid white !important;
+  background-color: white !important;
+  color: #8f8f8f !important;
+  font-size: 1.2rem !important;
+  padding: 1rem !important;
+  margin-left: -0.8rem;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 12px 16px !important;
+  color: #0b1025 !important;
+  font-size: 2rem !important;
+  line-height: 1.5715;
+  cursor: pointer;
+  transition: all 0.3s, visibility 0s;
+}
+
+.minuslogo {
+  width: 4rem;
+}
+
+.paneltext {
+  font-size: 2.2rem;
+  margin-left: 0.5rem !important;
+}
+
+.addlogo {
+  position: absolute;
+  margin-top: 1rem;
+  width: 3.5rem;
+}
+
+.frametext {
+  margin-left: 0.8rem;
+}
+
+
+.collapsediv {
+  width: 75rem !important;
+}
+
+@media (max-width: 425px) {
+  .collapsediv {
+    width: 40rem !important;
+  }
+}

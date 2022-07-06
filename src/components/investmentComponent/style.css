@@ -1,0 +1,284 @@
+.Maininvest77 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    background-color: #F9FAFB !important;
+}
+
+.textdiv {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+}
+
+.Investtext {
+    font-size: 5rem;
+    color: #14192D;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Investtext1 {
+    font-size: 2rem;
+    color: #3F444D !important;
+    text-align: center;
+    font-weight: normal;
+}
+
+.investimgdiv {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.investimg {
+    margin-top: -5rem;
+    width: 42rem;
+}
+
+.investimg1 {
+    position: absolute;
+    width: 36rem;
+    margin-top: -4.5rem;
+    margin-left: -48rem;
+}
+
+.investimg2 {
+    position: absolute;
+    width: 25.5rem;
+    margin-top: -8rem;
+    margin-left: -40rem;
+}
+
+.investimg3 {
+    position: absolute;
+    width: 45rem;
+    margin-top: -15rem;
+    margin-left: -45rem;
+}
+
+.vipdiv {
+    position: absolute;
+    margin-top: -12.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(100px);
+    border-radius: 12px 12px 0px 0px;
+    text-align: center;
+    font-size: 1rem;
+    color: #000000 !important;
+}
+ 
+.hrdiv {
+    width: 1px;
+    height: 6rem;
+    background-color: rgb(230, 223, 223);
+}
+
+.detailsdiv {
+    position: absolute;
+    background: #FFFFFF;
+    opacity: 0.8;
+    box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(100px);
+    border-radius: 0px 0px 12px 12px;
+    text-align: center;
+    font-size: 1rem;
+    width: 30.1rem;
+    padding: 1rem;
+    margin-top: -6.5rem;
+}
+
+@media(max-width: 425px) {
+    .investimg {
+        margin-top: 5rem;
+        width: 42rem;
+    }
+
+    .investimg1 {
+        position: absolute;
+        width: 32rem;
+        margin-top: -3rem;
+        margin-left: -38rem;
+    }
+
+    .investimg2 {
+        position: absolute;
+        width: 25.5rem;
+        margin-top: -8rem;
+        margin-left: -33rem;
+    }
+
+    .investimg3 {
+        position: absolute;
+        width: 50rem;
+        margin-top: -14rem;
+        margin-left: -45rem;
+    }
+
+    .vipdiv {
+        position: absolute;
+        margin-top: -8rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #FFFFFF;
+        opacity: 0.9;
+        box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(100px);
+        border-radius: 12px 12px 0px 0px;
+        text-align: center;
+        font-size: 1rem;
+        color: #000000 !important;
+        margin-left: 8rem;
+        width: 40rem;
+    }
+
+    .hrdiv {
+        width: 1px;
+        height: 6rem;
+        background-color: rgb(230, 223, 223);
+    }
+
+    .detailsdiv {
+        position: absolute;
+        background: #FFFFFF;
+        opacity: 0.9;
+        box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(100px);
+        border-radius: 0px 0px 12px 12px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+        margin-top: -2rem;
+        margin-left: 8rem;
+        width: 40rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .investimg3 {
+        position: absolute;
+        width: 42rem;
+        margin-top: -12rem;
+        margin-left: -42rem;
+    }
+
+    .investimg {
+        margin-top: 5rem;
+        width: 42rem;
+    }
+
+    .vipdiv {
+        position: absolute;
+        margin-top: -8rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #FFFFFF;
+        opacity: 0.9;
+        box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(100px);
+        border-radius: 12px 12px 0px 0px;
+        text-align: center;
+        font-size: 1rem;
+        color: #000000 !important;
+        margin-left: 5rem;
+        width: 38rem;
+    }
+
+    .hrdiv {
+        width: 1px;
+        height: 6rem;
+        background-color: rgb(230, 223, 223);
+    }
+
+    .detailsdiv {
+        position: absolute;
+        background: #FFFFFF;
+        opacity: 0.9;
+        box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(100px);
+        border-radius: 0px 0px 12px 12px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+        margin-top: -2rem;
+        margin-left: 5rem;
+        width: 38rem;
+    }
+}
+
+@media(max-width: 320px) {
+    .investimg {
+        margin-top: 5rem;
+        width: 32rem;
+    }
+
+    .investimg3 {
+        position: absolute;
+        width: 38rem;
+        margin-top: -12rem;
+        margin-left: -36rem;
+    }
+
+    .investimg1 {
+        position: absolute;
+        width: 28rem;
+        margin-top: -4.5rem;
+        margin-left: -32rem;
+    }
+
+    .investimg2 {
+        position: absolute;
+        width: 20rem;
+        margin-top: -8rem;
+        margin-left: -25rem;
+    }
+
+    .vipdiv {
+        position: absolute;
+        margin-top: -8rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #FFFFFF;
+        opacity: 0.9;
+        box-shadow: 0px 4px 58px rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(100px);
+        border-radius: 12px 12px 0px 0px;
+        text-align: center;
+        font-size: 1rem;
+        color: #000000 !important;
+        margin-left: 5rem;
+        width: 34rem;
+    }
+
+    .hrdiv {
+        width: 1px;
+        height: 6rem;
+        background-color: rgb(230, 223, 223);
+    }
+
+    .detailsdiv {
+        position: absolute;
+        background: #FFFFFF;
+        opacity: 0.9;
+        box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(100px);
+        border-radius: 0px 0px 12px 12px;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: -2rem;
+        margin-left: 5rem;
+        width: 34rem;
+    }
+
+}

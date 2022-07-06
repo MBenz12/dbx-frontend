@@ -1,0 +1,143 @@
+.buyselmain {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background: #e5e5e5 !important; */
+}
+
+.maindiv {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  justify-content: space-around !important;
+  align-items: center;
+  padding-bottom: 8rem;
+  background: linear-gradient(176.67deg,
+      #f3f6f9 -9.11%,
+      #ffffff 66.85%,
+      #f3f6f9 106.98%) !important;
+  padding-top: 2rem;
+}
+
+.onestep {
+  font-weight: bold !important;
+
+  font-size: 4.2rem !important;
+}
+
+.buysell {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.groupimg111 {
+  width: 23rem;
+  height: 20rem;
+}
+
+.group1img {
+  height: 20rem;
+  padding-bottom: 1rem;
+  margin-left: -2.5rem;
+}
+
+.group3img {
+  height: 8rem;
+  position: absolute;
+  margin-top: -1rem;
+}
+
+.row222 {
+  margin-bottom: 8rem;
+}
+
+.cardtext111 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  /* color: #3f444d !important; */
+}
+
+.row222 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 6rem;
+  /* background: #e5e5e5 !important; */
+}
+
+.firstcol {
+  padding: 3.5rem !important;
+  border-radius: 6px;
+  box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+  background: #ffffff;
+  text-align: center !important;
+}
+
+.img7 {
+  width: 7rem;
+}
+
+.legend {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.buybtn {
+  border-radius: 6px;
+  padding-left: 7rem;
+  padding-right: 8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  font-size: 1.4rem;
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%);
+}
+
+.img10 {
+  width: 5rem;
+}
+
+@media (max-width: 768px) {
+  .firstcol {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .maindiv {
+    display: flex;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center !important;
+    padding-top: 2rem;
+  }
+
+  .group {
+    padding-top: 5rem;
+    margin-left: 5rem;
+  }
+
+  .onestep {
+    font-weight: bold !important;
+
+    font-size: 3.5rem !important;
+  }
+
+  .buysell {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+  .row222 {
+    flex-direction: column;
+  }
+}
+
+/* sasas */

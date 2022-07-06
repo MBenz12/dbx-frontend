@@ -1,0 +1,29 @@
+.firstDivofrates {
+  background-color: #fff;
+  height: 50rem !important;
+  border-radius: 10px !important;
+  padding: 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.inputofsearchbarofexchange {
+  width: 95% !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: black !important;
+  font-size: 1.5rem !important;
+}
+.ant-tabs-tab-btn {
+  outline: none !important;
+  transition: none !important;
+}
+
+.colorisred {
+  color: red;
+}
+.colorisgreen {
+  color: green;
+}

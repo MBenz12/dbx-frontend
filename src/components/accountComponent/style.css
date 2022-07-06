@@ -1,0 +1,114 @@
+.Mainaccount {
+  display: flex;
+  justify-content: center;
+  align-items: "center";
+  padding: 70px 0px;
+  background: linear-gradient(265.73deg,
+      #acd949 9.82%,
+      #9fd340 40.96%,
+      #39b54a 80.16%);
+}
+
+.accounttext {
+  font-size: 3.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.accounttext1 {
+  font-size: 1.6rem;
+  color: #f2f2f2;
+  font-weight: 300;
+  margin-top: 1rem
+}
+
+.accinputdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45rem;
+  background: #f2f2f2;
+  box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.05);
+  border: solid 1px white;
+  border-radius: 4rem;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  color: #87a17c;
+}
+
+.accsignbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  text-align: center;
+  border-radius: 4rem;
+  padding: 0.5rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background: linear-gradient(48.98deg,
+      rgba(167, 214, 63, 0.9) -34.08%,
+      #39b54a 44.93%,
+      #9fd340 126.52%);
+}
+
+.accountcol {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+}
+
+.accountcol1 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.accimg {
+  position: absolute;
+  margin-top: -5rem;
+  right: 0;
+  width: 100vw;
+  height: 32vh;
+}
+@media(max-width: 425px){
+  .accountcol1 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 2rem;
+  }
+  .accounttext1 {
+    font-size: 1.6rem;
+    color: #f2f2f2;
+    font-weight: 300;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+}
+@media (max-width: 320px) {
+  .accinputdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    background: #f2f2f2;
+    box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.05);
+    border: solid 1px white;
+    border-radius: 4rem;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    color: #87a17c;
+  }
+
+  .accimg {
+    position: absolute;
+    margin-top: -5rem;
+    right: 0;
+    width: 80vw;
+    height: 25vh;
+  }
+}

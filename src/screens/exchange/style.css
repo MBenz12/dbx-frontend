@@ -1,0 +1,10 @@
+.wholediveofratesexchange {
+  background-color: #e5e5e5;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .graphresponsive {
+    margin-top: 2rem;
+  }
+}

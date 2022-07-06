@@ -1,0 +1,100 @@
+.Mainhour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+  background-color: white !important;
+}
+
+.hourtext { 
+  font-size: 4rem;
+  color: #14192d;
+  text-align: center;
+  margin-bottom: 1.5rem; 
+}
+ 
+.hourtext1 {
+  font-size: 1.8rem;
+  font-weight:normal;
+  color: #8f8f8f;
+  text-align: center;
+  margin-top:2.2rem;
+  line-height: 1.2;
+}
+
+.hourlogo {
+  width: 16rem;
+}
+
+.mainblogdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 26rem;
+  padding: 2rem;
+  border: 1px solid #cfd7de;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 27px 65px rgba(65, 62, 62, 0.08));
+  border-radius: 1.2rem;
+}
+
+.hourtext2 {
+  font-size: 1.5rem;
+  color: #14192d;
+  text-align: center;
+  font-weight: 700;
+}
+
+.hourtext3 {
+  font-size: 1.1rem;
+  color: grey !important;
+  text-align: center;
+  font-weight: 400;
+}
+
+.tlogologo {
+  width: 8rem;
+  margin-top: 2rem;
+}
+
+.Reliabletext {
+  margin-top: 3.5rem;
+  font-size: 1.5rem;
+  color: #14192d;
+  text-align: center;
+  font-weight: 700;
+}
+
+.Reliablediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 26rem;
+  padding: 4.2rem;
+  box-sizing: border-box;
+  box-shadow: 0px 27px 65px rgba(65, 62, 62, 0.08);
+  border-radius: 1.2rem;
+}
+
+.pluslogodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 26rem;
+  padding: 1rem;
+  border: 1px solid #cfd7de;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 27px 65px rgba(65, 62, 62, 0.08));
+  border-radius: 1.2rem;
+}
+
+.colhour {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 1rem;
+}

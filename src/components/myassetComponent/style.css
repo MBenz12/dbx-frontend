@@ -1,0 +1,151 @@
+.maindivofopenorders122 {
+    width: 100%;
+}
+
+.marginoftoptable12 {
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.tablestyling12 {
+    border: 1px solid #d8d8d8 !important;
+    border-radius: 1rem;
+}
+
+.eyelogo {
+    margin-left: .5rem;
+    width: 2rem;
+    margin-top: .5rem
+}
+
+
+.myassetsearch11 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    width: 95rem;
+}
+
+.searcbar1222 {
+    width: 25rem !important;
+    background: #f3f4f8 !important;
+    border: solid 1px #8f8f8f;
+    color: #8f8f8f;
+    border-radius: 0.5rem;
+    padding-left: 2rem !important;
+}
+
+.searchlogo1222 {
+    position: absolute;
+    margin-left: 0.4rem;
+    margin-top: 0.8rem;
+    width: 1.5rem;
+    z-index: 1;
+}
+
+.myassetext33 {
+    font-size: 1.4rem;
+    color: #4b9a2a;
+    text-decoration: underline;
+}
+
+@media(max-width: 1024px) {
+    .myassetsearch11 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 73rem;
+    }
+
+    .searcbar1222 {
+        width: 20rem !important;
+        background: #f3f4f8 !important;
+        border: solid 1px #8f8f8f;
+        color: #8f8f8f;
+        border-radius: 0.5rem;
+        padding-left: 2rem !important;
+    }
+
+
+}
+
+@media(max-width: 768px) {
+    .myassetsearch11 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 92rem;
+    }
+
+    .searcbar1222 {
+        width: 22rem !important;
+        background: #f3f4f8 !important;
+        border: solid 1px #8f8f8f;
+        color: #8f8f8f;
+        border-radius: 0.5rem;
+        padding-left: 2rem !important;
+    }
+
+    .searchlogo1222 {
+        position: absolute;
+        margin-left: 0.4rem;
+        margin-top: 1.5rem;
+        width: 1.5rem;
+        z-index: 1;
+    }
+}
+
+@media(max-width: 425px) {
+    .myassetsearch11 {
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 55rem;
+    }
+
+    .searcbar1222 {
+        width: 25rem !important;
+        background: #f3f4f8 !important;
+        border: solid 1px #8f8f8f;
+        color: #8f8f8f;
+        border-radius: 0.5rem;
+        padding-left: 2rem !important;
+    }
+
+}
+
+@media(max-width: 375px) {
+    .myassetsearch11 {
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 50rem;
+    }
+
+    .searcbar1222 {
+        width: 25rem !important;
+        background: #f3f4f8 !important;
+        border: solid 1px #8f8f8f;
+        color: #8f8f8f;
+        border-radius: 0.5rem;
+        padding-left: 2rem !important;
+    }
+}
+
+@media(max-width: 320px) {
+    .myassetsearch11 {
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 40rem;
+    }
+
+    .searcbar1222 {
+        width: 25rem !important;
+        background: #f3f4f8 !important;
+        border: solid 1px #8f8f8f;
+        color: #8f8f8f;
+        border-radius: 0.5rem;
+        padding-left: 2rem !important;
+    }
+}
